@@ -12,8 +12,11 @@ bug-reports:   http://github.com/analytics/hashable-extras/issues
 copyright:     Copyright (C) 2013 Edward A. Kmett
 build-type:    Custom
 tested-with:   GHC == 7.4.1, GHC == 7.6.1
-synopsis:      Hashing tools
-description:   Hashing tools
+synopsis:      Higher-rank Hashable
+description:
+  This package provides higher rank analogues to the Hashable data type.
+  .
+  The need for these sometimes arises in the presence of polymorphic recursion.
 
 extra-source-files:
   .travis.yml
