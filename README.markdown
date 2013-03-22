@@ -1,7 +1,7 @@
 hashable-extras
 ===============
 
-[![Build Status](https://secure.travis-ci.org/analytics/hashable-extras.png?branch=master)](http://travis-ci.org/analytics/hashable-extras)
+[![Build Status](https://secure.travis-ci.org/ekmett/hashable-extras.png?branch=master)](http://travis-ci.org/ekmett/hashable-extras)
 
 This package provides higher order Hashable types
 
