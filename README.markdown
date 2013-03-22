@@ -1,9 +1,9 @@
-hash
-====
+hashable-extras
+===============
 
-[![Build Status](https://secure.travis-ci.org/analytics/hash.png?branch=master)](http://travis-ci.org/analytics/hash)
+[![Build Status](https://secure.travis-ci.org/analytics/hashable-extras.png?branch=master)](http://travis-ci.org/analytics/hashable-extras)
 
-This package provides a bunch of hashing machinery.
+This package provides higher order Hashable types
 
 Contact Information
 -------------------
