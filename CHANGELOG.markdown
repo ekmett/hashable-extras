@@ -1,3 +1,7 @@
+0.1.1
+-----
+* Marked this package `Trustworthy`
+
 0.1.0.1
 -------
 * Bumped dependency bounds for `generic-deriving`.
