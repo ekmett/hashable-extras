@@ -43,7 +43,7 @@ class Hashable1 t where
   hashWithSalt1 :: Hashable a => Int -> t a -> Int
 #ifndef HLINT
   default hashWithSalt1 :: (Hashable a, Hashable (t a)) => Int -> t a -> Int
-  hashWithSalt1 = hashWithSalt1
+  hashWithSalt1 = hashWithSalt
   {-# INLINE hashWithSalt1 #-}
 #endif
 
