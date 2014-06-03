@@ -1,3 +1,7 @@
+0.2
+---
+* Converted to `bifunctors` 4
+
 0.1.1
 -----
 * Marked this package `Trustworthy`
