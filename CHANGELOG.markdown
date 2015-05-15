@@ -1,3 +1,7 @@
+0.2.1
+-----
+* Support `bifunctors` 5
+
 0.2
 ---
 * Converted to `bifunctors` 4
