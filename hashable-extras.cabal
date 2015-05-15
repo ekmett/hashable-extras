@@ -39,10 +39,6 @@ flag test-doctests
   default: True
   manual: True
 
-flag lib-Werror
-  default: False
-  manual: True
-
 library
 
   build-depends:
@@ -55,9 +51,6 @@ library
 
   exposed-modules:
     Data.Hashable.Extras
-
-  if flag(lib-Werror)
-    ghc-options: -Werror
 
   ghc-options: -Wall -fwarn-tabs -O2
   hs-source-dirs: src
