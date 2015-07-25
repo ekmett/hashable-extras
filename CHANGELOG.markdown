@@ -1,3 +1,8 @@
+0.2.2
+-----
+* Removed spurious `generic-deriving` dependency
+* Compiles warning-free on GHC 7.10
+
 0.2.1
 -----
 * Support `bifunctors` 5
