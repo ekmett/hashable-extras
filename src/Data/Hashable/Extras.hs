@@ -44,7 +44,7 @@ salt = hash Salt
 class Hashable1 t where
   hashWithSalt1 :: Hashable a => Int -> t a -> Int
 #ifndef HLINT
-  default hashWithSalt1 :: (Hashable a, Hashable (t a)) => Int -> t a -> Int
+  default hashWithSalt1 :: Hashable (t a) => Int -> t a -> Int
   hashWithSalt1 = hashWithSalt
   {-# INLINE hashWithSalt1 #-}
 #endif
@@ -70,7 +70,7 @@ instance (Hashable a, Hashable b, Hashable c, Hashable d, Hashable e, Hashable f
 class Hashable2 t where
   hashWithSalt2 :: (Hashable a, Hashable b) => Int -> t a b -> Int
 #ifndef HLINT
-  default hashWithSalt2 :: (Hashable a, Hashable b, Hashable (t a b)) => Int -> t a b -> Int
+  default hashWithSalt2 :: Hashable (t a b) => Int -> t a b -> Int
   hashWithSalt2 = hashWithSalt
   {-# INLINE hashWithSalt2 #-}
 #endif
