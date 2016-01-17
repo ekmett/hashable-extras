@@ -1,3 +1,9 @@
+0.2.3
+-----
+* ghc 8 support
+* `transformers` 0.5 support
+* Removed redundant constraints on default definitions.
+
 0.2.2
 -----
 * Removed spurious `generic-deriving` dependency
